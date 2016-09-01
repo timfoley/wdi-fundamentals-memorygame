@@ -1,3 +1,83 @@
 /* This is a multi-line
 comment. Add your CSS code
 from Unit 1 - 5 below  */
+body {
+  font-family: tahoma, sans-serif;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+
+p {
+  text-align: center;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(158, 0, 255);
+}
+
+h2 {
+  color: #ffd700;
+}
+
+.board {
+  height: 80%;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin: 8%;
+}
+
+.card {
+  box-sizing: border-box;
+  height: 200px;
+  max-width: 150px;
+  width: 46%;
+  margin: 2%;
+  border: 1px solid black;
+  background-color: rgb(0, 186, 255);
+  border-radius: 10px;
+  display: inline-block;
+  float: left;
+}
+
+.oomph {
+  font-size: 1.5em;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: rgb(158, 0, 255);
+}
+
+footer {
+  clear: both;
+  background: #b3aaaa;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+nav {
+  background: #b3aaaa;
+}
+
+nav a {
+  background: #ffbf00;
+  padding: 35px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  float: left;
+}
+
+nav a:hover {
+  background: #ee5f3c;
+}
